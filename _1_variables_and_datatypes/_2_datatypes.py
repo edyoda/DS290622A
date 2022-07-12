@@ -13,22 +13,27 @@ Datatypes
 """
 
 # # int
+# not iterable
 # num = -20
 # print(type(num))
 
 # # float
+# not iterable
 # price = 67.50
 # print(type(price))
 
 # str
+# iterable
 # name = "Bharati"
 # print(type(name))
 
 # bool
+# not iterable
 # human = True
 # print(type(human))
 
 # complex
+# not iterable
 # comp = 7+9j
 # print(type(comp))
 
@@ -39,6 +44,7 @@ Datatypes
 # indexed based
 # it is modifiable
 # it is ordered
+# iterable
 # lst = [5,6,3,5,7,2,1,"Bharati","A",8.9,True,5]
 # print(lst)
 # print(type(lst))
@@ -54,6 +60,7 @@ Datatypes
 # not modifiable
 # it can store heterogenous data
 # it is ordered
+# iterable
 # tup = (4,5,3,5,6,"Edyoda")
 # print(tup)
 # print(type(tup))
@@ -66,6 +73,7 @@ Datatypes
 # it doesnot duplicate values
 # it is non-indexed based
 # it stores heterogenous data
+# iterable
 # set_demo = {4,5,6,3,7,1,2,4,5,"Bharati"}
 # print(set_demo)
 # print(type(set_demo))
@@ -77,6 +85,7 @@ Datatypes
 # values can be duplicate
 # non-indexed based
 # it is modifiable
+# iterable
 dict_demo = {"one":"Bharati","two":"Mohit","three":"Deepak","four":"Bharati"} 
 print(dict_demo)
 print(type(dict_demo))
@@ -86,6 +95,7 @@ print(dict_demo["one"])
 
 
 # NoneType
+# not iterable
 # language = None
 # print(language)
 # print(type(language))
