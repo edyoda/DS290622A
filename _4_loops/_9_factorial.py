@@ -12,9 +12,9 @@
 # print(fact)
 
 
-number = int(input("Enter the number: "))
-
+number = int(input("Enter the number: ")) #5
+og = number
 for i in range(1,number):
-    number = number * i
+    number = number * i #30*4 = 120
 print(number)
 
