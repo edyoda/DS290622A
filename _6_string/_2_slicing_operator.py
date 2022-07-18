@@ -28,17 +28,8 @@ str1 = "Python is a programming language"
 # for i in str1:
 #     print(i)
 
-# str1 = str("Dharani")
-# counter = 0
-# for word in str1:
-#     counter = counter+1
-# print("Length of a string :",counter)
 
-size = int(input("Enter the size : "))
 
-lst = []
-for i in range(size):
-    value = int(input("Enter the element : "))
-    lst.append(value)
 
-print(lst)
+
+
