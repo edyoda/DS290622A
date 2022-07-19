@@ -7,6 +7,3 @@ print(add)
 mul = str1*3
 print(mul)
 
-Bharati
-
-a
