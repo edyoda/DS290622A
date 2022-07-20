@@ -20,12 +20,13 @@
 #         at_list.append(i)
 # print(*at_list)
 
+
 size = int(input("Enter the size : "))
 lst = []
 for i in range(1,size+1):
     string_input = input("Enter the String : ")
     lst.append(string_input)
-    
+
 end = ["at","AT","aT","At"]
 for unit in lst:
     if unit[-2:] in end:
