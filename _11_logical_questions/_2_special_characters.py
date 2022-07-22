@@ -27,3 +27,7 @@
 # print("special characters: ", *final_list)
                 
 
+47368
+
+four seven three six eight
+
