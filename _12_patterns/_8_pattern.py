@@ -10,3 +10,12 @@ for i in range(4+1): #i = 1
     for k in range(i):  #k=1
         print(" *", end = " ")
     print()
+
+
+#    *
+#   * *
+#  * * * 
+# * * * *
+   * * *
+    * *
+     *

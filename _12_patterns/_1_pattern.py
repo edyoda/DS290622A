@@ -12,3 +12,9 @@ for i in range(4):
             print(k,end=' ')
         k+=1
     print()
+
+
+1010
+1010
+1010
+1010

@@ -18,3 +18,8 @@ for row in range(4):
             print(1,end = " ")
     print()
 
+
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
