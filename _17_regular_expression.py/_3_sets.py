@@ -33,5 +33,6 @@
 # print(res)
 
  
-data = "hel\\y"
-print("\\" in data)
+data = r"hel\\y"
+for i in data:
+    print(i)
