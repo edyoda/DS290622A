@@ -1,12 +1,11 @@
 import re
-password = input("Enter an e-mail: ")
-result = re.findall(r"^(.*[a-z])(.*[A-Z])(.*[0-9])(.*[@#$%^&+=_.])[A-Za-z0-9@#$%^&+=_.]$",password)#[A-Za-z0-9@#$%^&+=_.]{8,16}$",password)
+password = input("Enter an password : ")
+result = re.search(r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!#%*?&]{8,16}$",password)#[A-Za-z0-9@#$%^&+=_.]{8,16}$",password)
 
 if result:
-    print("Email is correct")
+    print("Password is correct")
 else:
-    print("Email is incorrect")
+    print("Password is incorrect")
 
 
-# order and size is pending
 
