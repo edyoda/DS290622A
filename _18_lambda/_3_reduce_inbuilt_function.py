@@ -25,12 +25,12 @@ lst = ["Dog","Cat","Lion","Cheetah","Donkey","Monkey"]
 # data=list(filter(startd,lst))
 # print(data)
 
-# import re
-# def identify(lst):
-#     res = re.findall("^D",lst)
-#     return res
-# data = list(filter(identify,lst))
-# print(data)
+import re
+def identify(lst):
+    res = re.findall("^D|d",lst)
+    return res
+data = list(filter(identify,lst))
+print(data)
 
 lst = ["dog", "cat", "Donkey", "cheetah"]
 def func1(str1):
