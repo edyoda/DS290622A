@@ -14,10 +14,28 @@ class BookMain:
             print("***********View Book**********")
             self.bookfunction_obj.view_book()
 
+        elif choice == 3:
+            print("***********Update Book**********")
+            self.bookfunction_obj.update_book()
+
+        elif choice == 4:
+            print("***********Delete Book**********")
+            self.bookfunction_obj.delete_book()
+
         elif choice == 5:
             print("***********Search Book By ID**********")
             self.bookfunction_obj.search_book_by_id()
 
+        elif choice == 6:
+            print("***********Search Book By Name*********")
+            self.bookfunction_obj.search_book_by_name()
+
+        elif choice == 7:
+            print("***********Search Book By Author Name*********")
+            self.bookfunction_obj.search_book_by_author_name()
+
+        else:
+            print("Invalid Choice")
 
 if __name__ == "__main__":
     bookfunction_obj = BookFunction()

@@ -11,7 +11,6 @@ class Book:
     def __str__(self):
         return f"Book ID : {self.book_id} \nBook Name : {self.book_name} \nBook Edition : {self.book_edition} \nBook Author Name : {self.book_author_name} \nBook Publisher : {self.book_publisher} \nBook Price : {self.book_price}"
 
-
     def set_book_id(self,book_id):
         self.book_id = book_id
 
